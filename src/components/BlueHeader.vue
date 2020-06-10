@@ -3,9 +3,9 @@
         <header class="head">
             <img class="head-logo" src="../../public/SUEZ NWS_RGB_BLUE-BG-01.png" alt="suez logo" width="300" >
             <div class="head-headers">
-                <h1 class="head-title">Monthly REX Report</h1>
-                <h2 class="head-sub-title">{{ sub_title }}</h2>
-                <p class="head-des">Reporting period: {{ date }}</p>
+                <h1 class="head-headers-title">Monthly REX Report</h1>
+                <h2 class="head-headers-sub-title">{{ sub_title }}</h2>
+                <p class="head-headers-des">Reporting period: {{ date }}</p>
             </div>
         </header>
     </div>
@@ -28,28 +28,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1 {
-    font-size: 1.6em;
-    margin: 0;
-    text-align: left;
-    margin-bottom: 0;
-}
 
-h2 {
-    font-size: 1em;
-    text-align: left;
-    font-weight: bold;
-    margin-bottom: 0;
-    margin-top: 1em;
-
-}
-
-p {
-    margin-top: 0.2em;
-    font-size: 0.8em;
-
-    text-align: left;
-}
 
 
 
@@ -76,16 +55,29 @@ p {
 
     color: #fff;
 }
-/* .head-title {
-    position: absolute;
-    left: 1.2em;
-    top: 50%;
-    transform: translate(0, -50%);
-    color: #fff;
+
+.head-headers-title {
+    font-size: 1.6em;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 0;
 }
 
-.head-sub-title {
-    position: 
-} */
+.head-headers-sub-title {
+    font-size: 1em;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 1em;
+
+}
+
+.head-headers-des {
+    margin-top: 0.2em;
+    font-size: 0.8em;
+
+    text-align: left;
+}
+
 
 </style>
