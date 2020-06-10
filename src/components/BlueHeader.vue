@@ -7,7 +7,6 @@
                 <h2 class="head-sub-title">{{ sub_title }}</h2>
                 <p class="head-des">Reporting period: {{ date }}</p>
             </div>
-            
         </header>
     </div>
 </template>
