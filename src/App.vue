@@ -2,12 +2,10 @@
   <div id="app">
     <BlueHeader></BlueHeader>
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import BlueHeader from './components/BlueHeader'
 
 export default {
